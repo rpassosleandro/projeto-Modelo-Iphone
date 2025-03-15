@@ -1,6 +1,6 @@
 package src;
+
+//Esta classe deve implements todas as outras que são interface (Music, Phone e Web)
 public class IphoneDevice{
-    public static void main(String[] args) {
-        System.out.println("Bem-vindo ao mundo Iphone");
-    }
+   
 }
