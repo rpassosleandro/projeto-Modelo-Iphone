@@ -6,7 +6,7 @@ package src.equipamento;
  * - atualizarPagina
  */
 public interface Web {
-    public void exibirPagina();
+    public void exibirPagina(String url);
     public void adicionarNovaAba();
     public void atualizarPagina();
     

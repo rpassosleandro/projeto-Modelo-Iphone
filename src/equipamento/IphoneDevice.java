@@ -4,8 +4,8 @@ package src.equipamento;
 public class IphoneDevice implements Music, Phone, Web{
 
     // Métodos WEB
-    public void exibirPagina() {
-        System.out.println("Exibindo página da web: ");
+    public void exibirPagina(String minhaPagina) {
+        System.out.println("Exibindo página da web: " + minhaPagina);
     }
 
     public void adicionarNovaAba() {
@@ -17,8 +17,8 @@ public class IphoneDevice implements Music, Phone, Web{
     }
 
     // Métodos PHONE
-    public void ligar() {
-        System.out.println("Ligando para o número: ");
+    public void ligar(int meuNumero) {
+        System.out.println("Ligando para o número: " + meuNumero);
     }
 
     public void atender() {
@@ -30,16 +30,16 @@ public class IphoneDevice implements Music, Phone, Web{
     }
 
     // Métodos MUSIC
-    public void tocar() {
-        System.out.println("Tocando música: "+ Music.musica[4]);
+    public void tocar(String minhaMusica) {
+        System.out.println("Tocando música: " + minhaMusica );
     }
 
     public void pausar() {
         System.out.println("Música pausada");
     }
 
-    public void selecionarMusica(String musicString) {
-        System.out.println("Selecionando música "+ musicString);
+    public void selecionarMusica() {
+        System.out.println("Selecionando música ");
     }
    
 }

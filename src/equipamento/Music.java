@@ -7,8 +7,7 @@ package src.equipamento;
  */
 public interface Music {
 
-    String musica[] = {"Musica_1","Musica_2","Musica_3","Musica_4","Musica_5"};
-    public void tocar();
+    public void tocar(String music);
     public void pausar();
-    public void selecionarMusica(String music);
+    public void selecionarMusica();
 }

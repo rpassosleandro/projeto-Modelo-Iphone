@@ -6,7 +6,7 @@ package src.equipamento;
  * - iniciarCorreioVoz
  */
 public interface Phone {
-    public void ligar();
+    public void ligar(int number);
     public void atender();
     public void iniciarCorreioVoz();
     
