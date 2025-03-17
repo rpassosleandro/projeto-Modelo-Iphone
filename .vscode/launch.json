@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Usuario",
             "request": "launch",
+            "mainClass": "src.usuario.Usuario",
+            "projectName": "projeto-Modelo-Iphone_49c56972"
+        },
+        {
+            "type": "java",
+            "name": "Usuario",
+            "request": "launch",
             "mainClass": "src.Usuario",
             "projectName": "projeto-Modelo-Iphone_49c56972"
         },
